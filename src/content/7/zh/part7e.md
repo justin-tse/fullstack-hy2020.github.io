@@ -299,7 +299,7 @@ ReactDOM.render(
 ```
 
 <!-- When the state of the application changes a <i>new virtual DOM</i> gets defined by the components. React has the previous version of the virtual DOM in memory and instead of directly rendering the new virtual DOM using the DOM API React computes the optimal way to update the DOM (remove, add or modify elements in the DOM) such that the DOM reflects the new virtual DOM. -->
-当应用的状态发生更改时，组件将定义一个<i>新的虚拟 DOM</i>。 React 在内存中使用以前版本的虚拟 DOM，而不是使用 DOM API 直接渲染新的虚拟 DOM React 计算更新 DOM 的最佳方式(删除、添加或修改 DOM 中的元素) ，使 DOM 反映新的虚拟 DOM。
+当应用的状态发生更改时，组件将定义一个<i>新的虚拟 DOM</i>。 React 在内存中有旧版本的虚拟 DOM，但 React 不是使用 DOM API 直接渲染新的虚拟 DOM， 而是计算更新 DOM 的最佳方式(删除、添加或修改 DOM 中的元素) ，使 DOM 反映新的虚拟 DOM。
 
 ### On the role of React in applications
 【React在应用中的作用】
